@@ -18,13 +18,12 @@ export default {
     return {
       AppName,
       AppVersion,
-      sp_info,
-      breeding_code,
+      // sp_info,
+      // breeding_code,
       ebirdKey: '',
     }
   },
   mounted() {
-    console.log(breeding_code)
     this.ebirdKey = localStorage.getItem('ebirdKey') || ''
   },
   created() {

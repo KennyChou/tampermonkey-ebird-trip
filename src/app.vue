@@ -113,6 +113,7 @@ export default {
     saveKey() {
       localStorage.setItem('ebirdKey', this.inputkey)
       this.ebirdKey = this.inputkey
+      this.genDownloadButton()
       this.info = false
     },
     async download(id) {

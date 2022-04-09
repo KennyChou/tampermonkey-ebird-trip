@@ -1,6 +1,6 @@
 {
   "name": "tampermonkey-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用Vue Element-UI构建油猴TamperMonkey插件",
   "author": "harry",
   "private": true,

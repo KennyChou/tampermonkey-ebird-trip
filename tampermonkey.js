@@ -18,5 +18,4 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js
 // @match        https://ebird.org/mytripreports
-// @include      *
 // ==/UserScript==

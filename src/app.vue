@@ -60,6 +60,9 @@ export default {
   },
   methods: {
     genDownloadButton() {
+      const elements = document.getElementsByClassName('kenny-button')
+      while (elements.length > 0) elements[0].remove()
+
       if (Object.keys(this.sp_info).length == 0 || this.ebirdKey == '') {
         return
       }
@@ -71,7 +74,7 @@ export default {
           const id = element.getElementsByClassName('Heading Heading--h4')[0].id
           const button = document.createElement('button')
           button.textContent = '下載'
-          button.className = 'Button Button--highlight'
+          button.className = 'Button Button--highlight kenny-button'
           button.addEventListener('click', e => this.download(id))
           element.append(button)
         }

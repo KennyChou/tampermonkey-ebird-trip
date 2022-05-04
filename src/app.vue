@@ -2,7 +2,11 @@
   <div class="Page-section-inner Page-section-inner--md">
     <div v-if="ebirdKey == ''">
       <label>
-        <span>輸入eBird Apikey</span>
+        <span
+          >輸入<a href="https://ebird.org/api/keygen" target="_blank"
+            >eBird API</a
+          ></span
+        >
         <input type="text" v-model="inputkey" />
       </label>
       <button @click="saveKey" class="Button Button--highlight">儲存</button>

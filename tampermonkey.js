@@ -2,7 +2,7 @@
 // @name         __APP_NAME__
 // @namespace    https://kennychou.github.io/
 // @version      __APP_VERSION__
-// @description  使用Vue2.x構建Tampermonkey for ebird trip
+// @description  eBird TRIP Download
 // @author       Kenny Chou
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -18,4 +18,5 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js
 // @match        https://ebird.org/mytripreports
+// @match        https://ebird.org/*/mytripreports
 // ==/UserScript==
